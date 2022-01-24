@@ -1,0 +1,19 @@
+.color-slider{
+    max-width: 12.375rem;
+}
+.sliders-panel{
+    margin-left: 1.875rem;
+}
+.slick-slide {
+    font-size: 0;
+}
+.color-selector{
+    padding: 1px;
+}
+.slick-current .color-selector {
+    border: 2px solid;
+    border-radius: 50%;
+}
+.slick-current .color-selector {
+    border-color: #fff;
+}

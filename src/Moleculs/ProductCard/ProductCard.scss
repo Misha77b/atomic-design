@@ -1,0 +1,87 @@
+.product-card {
+    font-family: Montserrat, sans-serif;
+    margin: 4rem 3.5rem;
+    position: relative;
+    height: 15rem;
+    background: linear-gradient(180deg, rgba(19, 17, 29, 0) 13.69%, rgba(19, 17, 29, 0.6) 47.05%, #13111D 65.88%);
+}
+
+.product-title {
+    position: absolute;
+    left: 0.625rem;
+    top: 7.875rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.product-price{
+    position: absolute;
+    left: -0.125rem;
+    top: 5.813rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 5px 12px;
+    background: rgba(255, 255, 255, 0.09);
+    backdrop-filter: blur(30px);
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+}
+
+.product-card-btn-container {
+    position: absolute;
+    right: 0.688rem;
+    top: 0.688rem;
+}
+
+.vector-btn, 
+.heart-btn{
+    line-height: 0;
+    padding: 0.313rem;
+    background: rgba(19, 17, 29, 0.36);
+    border: none;    
+    border-radius: 2rem;
+}
+
+.vector-btn{
+    margin-right: 0.313rem;
+}
+
+.vector-icon, 
+.heart-icon{
+    font-size: 0;
+    padding: 0.1rem;
+    cursor: pointer;
+}
+
+.slider-panels{
+    position: absolute;
+    left: 2rem;
+    top: calc(50% - 28px/2 + 56px);
+}
+
+.bag-icon {
+    margin-left: 30px;
+    padding: 0.625rem;
+    background: linear-gradient(94.53deg, #D333F9 10.41%, #F9437E 99.34%);
+    border-radius: 2.5rem;
+}
+
+.out-of-stock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 10rem;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.out-of-stock-alert{
+    margin: auto;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}

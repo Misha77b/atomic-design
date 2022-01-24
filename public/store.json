@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Soho Coat",
+        "price": "$301.88",
+        "img": "./img/Rectangle2.png",
+        "available": true,
+        "id" : "1"
+    },
+    {
+        "name": "Soho Coat",
+        "price": "$301.88",
+        "img": "./img/Rectangle2.png",
+        "available": true,
+        "id" : "2"
+    },
+    {
+        "name": "Soho Coat",
+        "price": "$301.88",
+        "img": "./img/Rectangle2.png",
+        "available": true,
+        "id" : "3"
+    },
+    {
+        "name": "Soho Coat",
+        "price": "$301.88",
+        "img": "./img/Rectangle2.png",
+        "available": false,
+        "id" : "4"
+    }
+]

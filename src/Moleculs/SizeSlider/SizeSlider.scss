@@ -1,0 +1,30 @@
+.size-slider{
+    margin-top: 15px;
+    // max-width: 12.375rem;
+    max-width: 9.563rem;
+    display: inline-block;
+}
+.size-item-container {
+    margin: 0.56rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size-slider-item{
+    margin: 0;
+    font-size: 0.9rem; 
+    font-weight: 400;
+    color: white;
+    padding: 0.2rem 0.425rem;
+}
+
+.slick-current .size-slider-item {
+    border: 1px solid white;
+    border-radius: 42%;
+    backdrop-filter: blur(30px);
+}
+
+.active {
+    background: linear-gradient(94.53deg, #D333F9 10.41%, #F9437E 99.34%);
+}
